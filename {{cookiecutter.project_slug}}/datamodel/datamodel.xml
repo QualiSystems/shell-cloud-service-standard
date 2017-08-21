@@ -16,7 +16,7 @@
             <Rule Name="Configuration" />
         </Rules>
     </AttributeInfo>
-    <AttributeInfo Name="CloudProvider" Type="String" DefaultValue="" IsReadOnly="false">
+    <AttributeInfo Name="Cloud Provider" Type="String" DefaultValue="" IsReadOnly="false">
         <Rules>
             <Rule Name="Configuration" />
         </Rules>
