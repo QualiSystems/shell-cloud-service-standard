@@ -24,8 +24,26 @@
   </Attributes>
   <ResourceFamilies>
     <ResourceFamily Name="{{ cookiecutter.family_name }}" Description="" AllowRemoteConnection="true" IsService="true" ServiceType="Regular">
-     <AttachedAttributes />
-     <AttributeValues />
+     <AttachedAttributes>
+        <AttachedAttribute Name="Address" IsOverridable="true" IsLocal="true" UserInput="true">
+            <AllowedValues />
+        </AttachedAttribute>
+        <AttachedAttribute Name="User" IsOverridable="true" IsLocal="true" UserInput="true">
+            <AllowedValues />
+        </AttachedAttribute>
+        <AttachedAttribute Name="Password" IsOverridable="true" IsLocal="true" UserInput="true">
+            <AllowedValues />
+        </AttachedAttribute>
+        <AttachedAttribute Name="Cloud Provider" IsOverridable="true" IsLocal="true" UserInput="true">
+            <AllowedValues />
+        </AttachedAttribute>
+     </AttachedAttributes>
+     <AttributeValues>
+        <AttributeValue Name="Address" Value="" />
+        <AttributeValue Name="User" Value="" />
+        <AttributeValue Name="Password" Value="" />
+        <AttributeValue Name="Cloud Provider" Value="" />
+     </AttributeValues>
      <Models />
      <Categories>
         <Category>{{ cookiecutter.service_category }}</Category>
